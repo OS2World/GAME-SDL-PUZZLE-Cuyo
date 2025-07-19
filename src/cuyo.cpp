@@ -24,7 +24,10 @@ Maintenance modifications 2012 by the cuyo developers
    abzuspeichern. */
 #define signale_fangen 0
 
-
+#ifdef __OS2__
+#define _INTL_REDIRECT_INLINE /* For ngettext */
+#include <libintl.h>
+#endif
 
 #include <cstdlib>
 #include <cstdio>
