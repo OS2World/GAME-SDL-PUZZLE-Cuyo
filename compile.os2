@@ -1,4 +1,4 @@
-Built with ./configure --disable-nls --with-sdl-prefix=H:/tmp/SDL 'LDFLAGS=-Zomf -Zhigh-mem' 'LIBS=-lz -lintl'
+Built with ./configure --disable-nls --with-sdl-prefix=H:/tmp/SDL 'LDFLAGS=-Zomf' 'LIBS=-lz -lintl'
 make pkgdatadir=./data
 
 Adjust for your environment
