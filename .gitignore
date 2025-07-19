@@ -1,0 +1,8 @@
+Makefile
+config.h
+*.log
+config.status
+.deps/
+stamp-h1
+*.o
+*.exe
