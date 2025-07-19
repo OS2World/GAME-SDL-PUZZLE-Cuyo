@@ -5049,7 +5049,7 @@ if ac_fn_cxx_try_link "$LINENO"
 then :
   ac_cv_lib_SDL_mixer_Mix_OpenAudio=yes
 else case e in #(
-  e) ac_cv_lib_SDL_mixer_Mix_OpenAudio=no ;;
+  e) ac_cv_lib_SDL_mixer_Mix_OpenAudio=yes ;;
 esac
 fi
 rm -f core conftest.err conftest.$ac_objext conftest.beam \
