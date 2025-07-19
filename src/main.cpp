@@ -28,8 +28,11 @@ Modified 2001,2002,2006-2008,2010,2011,2014 by the cuyo developers
 #if HAVE_GETOPT
 /* Laut man-page muss man <unistd.h> includen, wenn man getopt() verwenden
    will. Laut gcc <getopt.h>. gcc sitzt am längeren Hebel... */
-//#include <unistd.h>
+#ifdef __OS2__
+#include <unistd.h>
+#else
 #include <getopt.h>
+#endif
 #endif
 
 #include "cuyointl.h"
